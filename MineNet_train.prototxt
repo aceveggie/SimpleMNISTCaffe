@@ -15,13 +15,13 @@ layer
   transform_param
   {
     scale: 0.00392156862745
-    mean_file: "/home/jason/Documents/Datasets/combined data/cross valid data_cropped_256/0/left_train_lmdb.binaryproto"
+    mean_file: "path_to_lmdb.binaryproto"
   }
   
   # where to get the data from 
   data_param
   {
-    source: "/home/jason/Documents/Datasets/combined data/cross valid data_cropped_256/0/left_train_lmdb"
+    source: "path_to_train_lmdb"
     batch_size: 16
     backend: LMDB
   }

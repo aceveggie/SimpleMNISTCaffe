@@ -1,6 +1,6 @@
 # The train/test net protocol buffer definition
-train_net: "examples/mine_net_train_test/MineNet_train.prototxt"
-test_net: "examples/mine_net_train_test/MineNet_test.prototxt"
+train_net: "path_to_train.prototxt"
+test_net: "path_to_train.prototxt"
 # test_iter specifies how many forward passes the test should carry out.
 # In the case of MNIST, we have test batch size 100 and 100 test iterations,
 # covering the full 10,000 testing images.
@@ -21,5 +21,5 @@ display: 100
 max_iter: 15000
 # snapshot intermediate results
 snapshot: 5000
-snapshot_prefix: "examples/mine_net_train_test/minenet_snapshot"
+snapshot_prefix: "path_to_save_partially_trained_classifier_snapshot"
 
